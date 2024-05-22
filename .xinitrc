@@ -21,4 +21,5 @@ collect_info() {
 collect_info
 
 # Montar o comando xfreerdp com as informações coletadas
-xfreerdp /v:[192.168.0.10] /u:"$USER" /p:"$PASSWORD"  /f
+xfreerdp /v:[192.168.0.10] /u:"$USER" /p:"$PASSWORD"  /f  /cert-ignore +clipboard +fonts
+/gdi:hw
