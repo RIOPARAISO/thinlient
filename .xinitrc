@@ -21,4 +21,4 @@ collect_info() {
 collect_info
 
 # Montar o comando xfreerdp com as informações coletadas
-xfreerdp /v:[192.168.0.10] /u:"$USER" /p:"$PASSWORD"  /f " > /home/pi/.xinit 
+xfreerdp /v:[192.168.0.10] /u:"$USER" /p:"$PASSWORD"  /f
