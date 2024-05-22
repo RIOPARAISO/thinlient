@@ -4,7 +4,7 @@
 #
 
 apt update
-apt install instal xserver-xorg yad xinit lightdm-remote-session-freerdp2 gpm ntpdate
+apt install xserver-xorg yad xinit lightdm-remote-session-freerdp2 gpm ntpdate
 
 echo " #!/bin/bash
 
