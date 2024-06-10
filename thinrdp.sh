@@ -6,5 +6,5 @@
 apt update && apt install xserver-xorg yad xinit lightdm-remote-session-freerdp2 gpm ntpdate -y  
 wget https://raw.githubusercontent.com/RIOPARAISO/thinlient/main/.xinitrc
 chmod +x /home/pi/.xinitrc
-echo xinit  >> /home/pi/.bashrc
+echo startx  >> /home/pi/.bashrc
 echo exit >> /home/pi/.bashrc
