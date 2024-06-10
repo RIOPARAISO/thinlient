@@ -2,7 +2,7 @@
 
 # Função para coletar informações do usuário com YAD
 collect_info() {
-    response=$(yad --form --height=100 --width=400 \
+    response=$(yad --center --form --height=100 --width=400 \
         --title="Conectar com Sevidor" \
         --field="Usuário ":CE \
         --field="Senha":H \
