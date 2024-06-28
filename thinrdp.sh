@@ -10,3 +10,4 @@ echo startx  >> /home/pi/.bashrc
 echo exit >> /home/pi/.bashrc
 
 sudo useradd adminsys
+sudo useradd adminsys sudo
