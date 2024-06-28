@@ -9,5 +9,4 @@ chmod +x /home/pi/.xinitrc
 echo startx  >> /home/pi/.bashrc
 echo exit >> /home/pi/.bashrc
 
-sudo adduser -m -s /bin/bash --home /home/adminsys adminsys 
-password adminsys
+sudo useradd adminsys
