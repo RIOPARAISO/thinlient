@@ -1,0 +1,6 @@
+.
+├── config_manager.py  # Lida com carregamento e salvamento de configurações
+├── gui_utils.py       # Funções auxiliares para GUI (interface gráfica)
+├── connection.py      # Lida com as conexões (xfreerdp, VNC, NoMachine)
+├── actions.py         # Ações do sistema (reiniciar, desligar)
+└── main.py            # Arquivo principal que inicializa a aplicação

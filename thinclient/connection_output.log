@@ -1,0 +1,16 @@
+[11:43:09:437] [3046:3047] [ERROR][com.winpr.timezone] - Unable to get current timezone rule
+[11:43:13:235] [3046:3047] [WARN][com.freerdp.core.rdp] - pduType PDU_TYPE_DATA not properly parsed, 562 bytes remaining unhandled. Skipping.
+[11:44:09:126] [3046:3047] [ERROR][com.freerdp.core] - rdp_set_error_info:freerdp_set_last_error_ex ERRINFO_LOGOFF_BY_USER [0x0001000C]
+[11:43:08:971] [3046:3047] [INFO][com.freerdp.core] - freerdp_connect:freerdp_set_last_error_ex resetting error state
+[11:43:08:971] [3046:3047] [INFO][com.freerdp.client.common.cmdline] - loading channelEx rdpdr
+[11:43:08:971] [3046:3047] [INFO][com.freerdp.client.common.cmdline] - loading channelEx rdpsnd
+[11:43:08:971] [3046:3047] [INFO][com.freerdp.client.common.cmdline] - loading channelEx cliprdr
+[11:43:08:352] [3046:3047] [INFO][com.freerdp.primitives] - primitives autodetect, using generic
+[11:43:08:379] [3046:3047] [INFO][com.freerdp.core] - freerdp_tcp_is_hostname_resolvable:freerdp_set_last_error_ex resetting error state
+[11:43:08:379] [3046:3047] [INFO][com.freerdp.core] - freerdp_tcp_connect:freerdp_set_last_error_ex resetting error state
+[11:43:10:741] [3046:3047] [INFO][com.freerdp.gdi] - Local framebuffer format  PIXEL_FORMAT_BGRX32
+[11:43:10:741] [3046:3047] [INFO][com.freerdp.gdi] - Remote framebuffer format PIXEL_FORMAT_RGB16
+[11:43:10:887] [3046:3047] [INFO][com.winpr.clipboard] - initialized POSIX local file subsystem
+[11:43:10:063] [3046:3047] [INFO][com.freerdp.channels.rdpsnd.client] - [static] Loaded fake backend for rdpsnd
+[11:43:12:834] [3046:3047] [INFO][com.freerdp.client.x11] - Logon Error Info SESSION_ID [LOGON_MSG_SESSION_CONTINUE]
+[11:44:09:126] [3046:3047] [INFO][com.freerdp.core] - ERRINFO_LOGOFF_BY_USER (0x0000000C):The disconnection was initiated by the user logging off their session on the server.
