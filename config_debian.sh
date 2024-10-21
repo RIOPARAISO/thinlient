@@ -16,6 +16,10 @@ wget https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.7.2-Linux-x64.
 dpkg -i /tmp/VNC-Server.deb
 apt --fix-broken install -y  # Corrigir dependências, se necessário
 
+# 5. Clonar o repositório Git
+echo "Clonando o repositório thinlient do GitHub..."
+git clone https://github.com/RIOPARAISO/thinlient.git /home/pi/
+
 # 2. Instalação do Python3
 echo "Instalando Python 3..."
 apt install -y python3 python3-pip
