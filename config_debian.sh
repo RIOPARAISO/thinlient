@@ -63,7 +63,7 @@ echo "Configurando o autologin no LXDM para o usuário 'pi'..."
 sed -i 's/# autologin=.*/autologin=pi/' /etc/lxdm/lxdm.conf
 
 # 9. Criar atalho para autostart com o endereço /home/pi/thinclient/main.py
-AUTOSTART_DIR="/home/pi/.config/autostart"
+AUTOSTART_DIR="/home/pi/.config/openbox/autostart"
 mkdir -p "$AUTOSTART_DIR"
 echo "Criando atalho de autostart para /home/pi/thinclient/main.py..."
 
